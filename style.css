@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(346deg, 17%, 70%);
+    display: flex;
+
+}
+
+#part1{
+    width: 26%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#part2{
+    width: 67%;
+    height: 100%;
+    /* background-color: green; */
+    background-image: url(https://images.unsplash.com/photo-1556755211-76b514756669?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1852&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(345, 5%, 47%, 0.402);;
+}
+
+#part3{
+    width: 7%;
+    height: 100%;
+   /*  background-color: yellow; */
+}
+
+#text-div{
+    /* height: 300px; */
+    width: 400px;
+    position: absolute;
+   /*  background-color: red; */
+    top: 50%;
+    left: 7%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    line-height: 78px;
+    letter-spacing: 8px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1533925180726-55afc9aea835?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 58%;
+    right: -252%;
+    transform: translate(0, -50%);
+}
+
+#vertical-text{
+   position: absolute;
+    width: 190%;
+    right: -340%;
+    bottom: 70px;
+    /* background-color: red; */
+}
+
+#vertical-text h1{
+ font-size: 75px;
+ font-family: monument;
+ transform: rotate(90deg);
+ letter-spacing: 8px;
+ color: transparent;
+ font-weight: 900;
+ /* left: 205%; */
+
+ -webkit-text-stroke-color: #fff;
+ -webkit-text-stroke-width: 2px;
+
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    top: 5%;
+    left: 7%;
+    /* background-color: red; */
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
